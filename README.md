@@ -1,4 +1,4 @@
-# Maggsweb XML-2-MyQL import tool
+# Maggsweb XML-2-MySQL import tool
 
 A simple import script to convert XML files (eg: exported from MSAccess) to MySQL
 
