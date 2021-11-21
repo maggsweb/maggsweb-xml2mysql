@@ -1,0 +1,16 @@
+{
+  "name": "maggsweb/maggsweb-xml-mysql",
+  "type": "project",
+  "description": "XML to MySQL Importer",
+  "keywords": [
+    "import",
+    "database"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^7.4",
+    "maggsweb/maggsweb-pdo": "^2.0",
+    "symfony/var-dumper": "^5.3",
+    "ext-simplexml": "*"
+  }
+}
