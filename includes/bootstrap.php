@@ -9,6 +9,8 @@ require __DIR__.'/../vendor/autoload.php';
 $settings = parse_ini_file( 'configuration.ini');
 //dump($settings);
 
+$maxUploadFilesize = ini_get('upload_max_filesize');
+$maxPostFilesize = ini_get('post_max_size');
 
 
 $db = new MyPDO($settings['host'], $settings['user'], $settings['pass'], $settings['dbname']);

@@ -12,3 +12,10 @@
     <h1>Maggsweb :: XML to MySQL Import</h1>
 </a>
 
+<pre>
+    upload_max_filesize = <?= $maxUploadFilesize ?>
+    post_max_size = <?= $maxPostFilesize ?>
+</pre>
+
+<hr/>
+
